@@ -7,6 +7,7 @@
     "react-scripts": "2.1.8",
     "react": "^16.8.6"
   },
+  "homepage": "https://gib.github.io/news-search",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
