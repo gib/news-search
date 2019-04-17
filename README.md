@@ -50,7 +50,9 @@ docker-compose run -rm web npm test
 ```
 
 Launches the test runner in the interactive watch mode.
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+See ReactJS's documentation section about
+[running tests](https://facebook.github.io/create-react-app/docs/running-tests)
+for more information.
 
 ### Building the app for deployment
 
@@ -60,3 +62,19 @@ docker-compose run -rm web npm run build
 
 Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for the best performance.
+
+## Future Roadmap
+
+Nothing is more constant than that feeling of wanting to do just _one. more. thing_.
+Here is my current list:
+
+- Loading indicator when background requests are running
+- Paging (currently only request the default first 20 articles)
+  - Request additional pages after scrolling to the bottom of results
+  - Indicate when there are no more results
+- "Delightful" transition of incoming articles
+  - Fade? Card spin? So many possibilities.
+- Tests
+  - Ensure all components render
+- Keep current state with URL params to allow easy sharing of a search and the results
+- On Welcome, display current headlines to inspire some something to search
