@@ -1,4 +1,6 @@
+import Articles from "./Articles.jsx";
 import React, { Component } from "react";
+import Searchbar from "./Searchbar.jsx";
 
 class NewsSearch extends Component {
   constructor(props) {

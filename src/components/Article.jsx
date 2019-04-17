@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class Article extends React.Component {
+class Article extends Component {
   createMarkup(html) {
     return { __html: html };
   }
