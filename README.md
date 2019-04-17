@@ -12,6 +12,14 @@ The only requirement to run the project is
 The project uses `docker-compose` to encapsulate dependencies. The project's
 `Dockerfile` is based on the `node:current-alpine` image.
 
+### Setup
+
+To install dependencies in the Docker container, you'll need to run `npm install` the first time...
+
+```
+docker-compose run --rm web npm install
+```
+
 ### Running the project
 
 To run the project for development with a local web server, in the project
