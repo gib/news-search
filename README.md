@@ -7,18 +7,12 @@ sort by publish date, popularity, and relevancy. It leverages
 Publishing source logos are provided by [Clearbit](https://clearbit.com/)'s
 free [logo API](https://clearbit.com/logo) if available.
 
+It's currently hosted with `gh-pages`: [https://gib.github.io/news-search/](https://gib.github.io/news-search/)
+
 The only requirement to run the project is
 [Docker desktop](https://www.docker.com/products/docker-desktop).
 The project uses `docker-compose` to encapsulate dependencies. The project's
 `Dockerfile` is based on the `node:current-alpine` image.
-
-### Setup
-
-To install dependencies in the Docker container, you'll need to run `npm install` the first time...
-
-```
-docker-compose run --rm web npm install
-```
 
 ### Running the project
 
